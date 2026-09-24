@@ -94,26 +94,29 @@ src="https://www.facebook.com/tr?id=1096195466206984&ev=PageView&noscript=1"
 
 <!-- ===================== HEADER + BARRA DE URGÊNCIA (mais destaque visual) ===================== -->
 <header id="site-header" class="fixed top-0 inset-x-0 z-50 bg-bg/95 backdrop-blur border-b border-primary/10">
-  <div id="promo-bar" class="bg-primary text-white text-center border-b-2 border-accent">
-    <div class="max-w-3xl mx-auto px-4 py-3 sm:py-3.5">
-      <p class="text-sm sm:text-base font-bold uppercase tracking-wide leading-snug">Oferta especial disponível por tempo limitado</p>
-      <p id="promo-bar-text" class="text-[11px] sm:text-xs text-white/85 leading-snug mt-0.5">
-        Garanta sua Biblioteca da Bordadeira com a condição especial enquanto a oferta estiver disponível.
-      </p>
-      <div id="oferta-countdown-wrap-top" class="inline-flex items-start gap-2 sm:gap-2.5 mt-2">
-        <div class="flex flex-col items-center">
-          <span id="cd-h" class="font-serif font-black text-white text-2xl sm:text-3xl leading-none">00</span>
-          <span class="text-[8px] font-sans font-semibold uppercase tracking-wide text-white/60 mt-0.5">Horas</span>
+  <div id="promo-bar" class="bg-primary text-white border-b-2 border-accent">
+    <div class="max-w-5xl mx-auto px-4 py-3 sm:py-3.5 flex flex-col sm:flex-row items-center sm:justify-between gap-2.5 sm:gap-5">
+      <div class="flex items-center gap-2.5 text-center sm:text-left">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-5 h-5 sm:w-6 sm:h-6 text-white/75 shrink-0 hidden sm:block"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>
+        <div>
+          <p class="text-[13px] sm:text-base font-bold uppercase tracking-wide leading-snug">Oferta especial disponível por tempo limitado</p>
+          <p id="promo-bar-text" class="text-[11px] sm:text-xs text-white/80 leading-snug mt-0.5">
+            Garanta sua Biblioteca da Bordadeira com a condição especial enquanto a oferta estiver disponível.
+          </p>
         </div>
-        <span class="font-serif font-black text-white/40 text-2xl sm:text-3xl leading-none">:</span>
-        <div class="flex flex-col items-center">
-          <span id="cd-m" class="font-serif font-black text-white text-2xl sm:text-3xl leading-none">00</span>
-          <span class="text-[8px] font-sans font-semibold uppercase tracking-wide text-white/60 mt-0.5">Min</span>
+      </div>
+      <div id="oferta-countdown-wrap-top" class="flex items-center gap-1.5 sm:gap-2 shrink-0">
+        <div class="flex flex-col items-center bg-white/15 rounded-lg px-2.5 py-1.5 sm:px-3.5 sm:py-2 w-[54px] sm:w-16">
+          <span id="cd-h" class="font-serif font-black text-white text-lg sm:text-2xl leading-none">00</span>
+          <span class="text-[8px] font-sans font-semibold uppercase tracking-wide text-white/65 mt-0.5">Horas</span>
         </div>
-        <span class="font-serif font-black text-white/40 text-2xl sm:text-3xl leading-none">:</span>
-        <div class="flex flex-col items-center">
-          <span id="cd-s" class="font-serif font-black text-white text-2xl sm:text-3xl leading-none">00</span>
-          <span class="text-[8px] font-sans font-semibold uppercase tracking-wide text-white/60 mt-0.5">Seg</span>
+        <div class="flex flex-col items-center bg-white/15 rounded-lg px-2.5 py-1.5 sm:px-3.5 sm:py-2 w-[54px] sm:w-16">
+          <span id="cd-m" class="font-serif font-black text-white text-lg sm:text-2xl leading-none">00</span>
+          <span class="text-[8px] font-sans font-semibold uppercase tracking-wide text-white/65 mt-0.5">Min</span>
+        </div>
+        <div class="flex flex-col items-center bg-white/15 rounded-lg px-2.5 py-1.5 sm:px-3.5 sm:py-2 w-[54px] sm:w-16">
+          <span id="cd-s" class="font-serif font-black text-white text-lg sm:text-2xl leading-none">00</span>
+          <span class="text-[8px] font-sans font-semibold uppercase tracking-wide text-white/65 mt-0.5">Seg</span>
         </div>
       </div>
     </div>
@@ -213,17 +216,23 @@ src="https://www.facebook.com/tr?id=1096195466206984&ev=PageView&noscript=1"
   <!-- ===================== 4. PREVIEW DOS RISCOS ===================== -->
   <section class="w-full px-5 lg:px-10 py-14 lg:py-20">
     <div class="max-w-4xl mx-auto text-center">
-      <h2 class="font-serif font-bold text-primary text-[1.85rem] sm:text-4xl leading-[1.15] mb-8">Alguns dos +500 riscos que você recebe</h2>
+      <h2 class="font-serif font-bold text-primary text-[1.85rem] sm:text-4xl leading-[1.15] mb-4">Alguns dos +500 riscos que você recebe</h2>
 
-      <div class="grid grid-cols-3 sm:grid-cols-4 gap-2 sm:gap-3 max-w-2xl mx-auto">
-        <img src="/images/catalogo/sagrado-coracao-jesus.jpg" alt="Risco de bordado do Sagrado Coração de Jesus" loading="lazy" width="300" height="300" class="aspect-square w-full rounded-lg object-cover border border-primary/10" />
-        <img src="/images/catalogo/nossa-senhora-aparecida.jpg" alt="Risco de bordado de Nossa Senhora Aparecida" loading="lazy" width="300" height="300" class="aspect-square w-full rounded-lg object-cover border border-primary/10" />
-        <img src="/images/catalogo/colmeia-abelhinhas.jpg" alt="Risco de colmeia com abelhinhas" loading="lazy" width="300" height="300" class="aspect-square w-full rounded-lg object-cover border border-primary/10" />
-        <img src="/images/catalogo/casa-feliz-panela-fogo.jpg" alt="Risco de cozinha, Casa Feliz Panela no Fogo" loading="lazy" width="300" height="300" class="aspect-square w-full rounded-lg object-cover border border-primary/10" />
-        <img src="/images/catalogo/vasinho-manjericao.jpg" alt="Risco de vasinho de manjericão floral" loading="lazy" width="300" height="300" class="aspect-square w-full rounded-lg object-cover border border-primary/10" />
-        <img src="/images/catalogo/peixinhos-aquario.jpg" alt="Risco de peixinhos no aquário, tema infantil" loading="lazy" width="300" height="300" class="aspect-square w-full rounded-lg object-cover border border-primary/10" />
-        <img src="/images/catalogo/cogumelos-na-chuva.jpg" alt="Risco de cogumelos na chuva" loading="lazy" width="300" height="300" class="aspect-square w-full rounded-lg object-cover border border-primary/10" />
-        <img src="/images/catalogo/xicaras-de-cafe.jpg" alt="Risco de xícaras de café floridas" loading="lazy" width="300" height="300" class="aspect-square w-full rounded-lg object-cover border border-primary/10" />
+      <div class="flex flex-wrap items-center justify-center gap-x-5 gap-y-1.5 mb-8 text-[12px] sm:text-[13px] text-ink/60 font-medium">
+        <span class="inline-flex items-center gap-1.5"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-3.5 h-3.5 text-accent"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><rect x="14" y="14" width="7" height="7" rx="1"/></svg>10 categorias</span>
+        <span class="inline-flex items-center gap-1.5"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-3.5 h-3.5 text-accent"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 1 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78Z"/></svg>Modelos para todos os estilos</span>
+        <span class="inline-flex items-center gap-1.5"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-3.5 h-3.5 text-accent"><path d="M6 9V2h12v7"/><path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"/><rect x="6" y="14" width="12" height="8"/></svg>Prontos para imprimir</span>
+      </div>
+
+      <div class="grid grid-cols-3 sm:grid-cols-4 gap-2.5 sm:gap-3 max-w-2xl mx-auto">
+        <img src="/images/catalogo/sagrado-coracao-jesus.jpg" alt="Risco de bordado do Sagrado Coração de Jesus" loading="lazy" width="300" height="300" class="aspect-square w-full rounded-xl object-cover border border-primary/10 shadow-sm" />
+        <img src="/images/catalogo/nossa-senhora-aparecida.jpg" alt="Risco de bordado de Nossa Senhora Aparecida" loading="lazy" width="300" height="300" class="aspect-square w-full rounded-xl object-cover border border-primary/10 shadow-sm" />
+        <img src="/images/catalogo/colmeia-abelhinhas.jpg" alt="Risco de colmeia com abelhinhas" loading="lazy" width="300" height="300" class="aspect-square w-full rounded-xl object-cover border border-primary/10 shadow-sm" />
+        <img src="/images/catalogo/casa-feliz-panela-fogo.jpg" alt="Risco de cozinha, Casa Feliz Panela no Fogo" loading="lazy" width="300" height="300" class="aspect-square w-full rounded-xl object-cover border border-primary/10 shadow-sm" />
+        <img src="/images/catalogo/vasinho-manjericao.jpg" alt="Risco de vasinho de manjericão floral" loading="lazy" width="300" height="300" class="aspect-square w-full rounded-xl object-cover border border-primary/10 shadow-sm" />
+        <img src="/images/catalogo/peixinhos-aquario.jpg" alt="Risco de peixinhos no aquário, tema infantil" loading="lazy" width="300" height="300" class="aspect-square w-full rounded-xl object-cover border border-primary/10 shadow-sm" />
+        <img src="/images/catalogo/cogumelos-na-chuva.jpg" alt="Risco de cogumelos na chuva" loading="lazy" width="300" height="300" class="aspect-square w-full rounded-xl object-cover border border-primary/10 shadow-sm" />
+        <img src="/images/catalogo/xicaras-de-cafe.jpg" alt="Risco de xícaras de café floridas" loading="lazy" width="300" height="300" class="aspect-square w-full rounded-xl object-cover border border-primary/10 shadow-sm" />
       </div>
 
       <p class="font-serif font-bold text-primary text-sm sm:text-base uppercase tracking-wide mt-8 mb-6">+500 riscos &bull; Diversas categorias &bull; Prontos para imprimir</p>
@@ -285,26 +294,29 @@ src="https://www.facebook.com/tr?id=1096195466206984&ev=PageView&noscript=1"
     <div class="max-w-4xl mx-auto">
       <h2 class="font-serif font-bold text-primary text-[1.85rem] sm:text-4xl leading-[1.15] text-center mb-12">É simples de usar</h2>
 
-      <div class="grid grid-cols-1 sm:grid-cols-4 gap-8 sm:gap-5 max-w-3xl mx-auto text-center">
-        <div class="flex flex-col items-center gap-3">
-          <div class="w-12 h-12 rounded-full bg-accent/10 text-accent flex items-center justify-center"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" class="w-5 h-5"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></svg></div>
-          <p class="font-serif font-bold text-primary text-sm uppercase tracking-wide">1. Escolha</p>
-          <p class="text-[13px] text-ink/65 leading-snug">Encontre um modelo dentro da biblioteca.</p>
+      <div class="flex flex-col sm:flex-row items-center sm:items-start justify-center gap-6 sm:gap-2 max-w-3xl mx-auto text-center">
+        <div class="flex flex-col items-center gap-2.5 sm:w-1/4">
+          <span class="w-11 h-11 rounded-full bg-primary text-white font-serif font-bold text-lg flex items-center justify-center shrink-0">1</span>
+          <p class="font-serif font-bold text-primary text-sm uppercase tracking-wide">Escolha</p>
+          <p class="text-[13px] text-ink/65 leading-snug max-w-[11rem]">Encontre um modelo dentro da biblioteca.</p>
         </div>
-        <div class="flex flex-col items-center gap-3">
-          <div class="w-12 h-12 rounded-full bg-accent/10 text-accent flex items-center justify-center"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" class="w-5 h-5"><path d="M6 9V2h12v7"/><path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"/><rect x="6" y="14" width="12" height="8"/></svg></div>
-          <p class="font-serif font-bold text-primary text-sm uppercase tracking-wide">2. Imprima</p>
-          <p class="text-[13px] text-ink/65 leading-snug">Escolha o risco e prepare para impressão.</p>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="hidden sm:block w-5 h-5 text-primary/25 shrink-0 mt-3"><path d="m9 18 6-6-6-6"/></svg>
+        <div class="flex flex-col items-center gap-2.5 sm:w-1/4">
+          <span class="w-11 h-11 rounded-full bg-primary text-white font-serif font-bold text-lg flex items-center justify-center shrink-0">2</span>
+          <p class="font-serif font-bold text-primary text-sm uppercase tracking-wide">Imprima</p>
+          <p class="text-[13px] text-ink/65 leading-snug max-w-[11rem]">Escolha o risco e prepare para impressão.</p>
         </div>
-        <div class="flex flex-col items-center gap-3">
-          <div class="w-12 h-12 rounded-full bg-accent/10 text-accent flex items-center justify-center"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" class="w-5 h-5"><path d="M12 15V3"/><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><path d="m7 10 5 5 5-5"/></svg></div>
-          <p class="font-serif font-bold text-primary text-sm uppercase tracking-wide">3. Transfira</p>
-          <p class="text-[13px] text-ink/65 leading-snug">Passe o risco para o tecido.</p>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="hidden sm:block w-5 h-5 text-primary/25 shrink-0 mt-3"><path d="m9 18 6-6-6-6"/></svg>
+        <div class="flex flex-col items-center gap-2.5 sm:w-1/4">
+          <span class="w-11 h-11 rounded-full bg-primary text-white font-serif font-bold text-lg flex items-center justify-center shrink-0">3</span>
+          <p class="font-serif font-bold text-primary text-sm uppercase tracking-wide">Transfira</p>
+          <p class="text-[13px] text-ink/65 leading-snug max-w-[11rem]">Passe o risco para o tecido.</p>
         </div>
-        <div class="flex flex-col items-center gap-3">
-          <div class="w-12 h-12 rounded-full bg-accent/10 text-accent flex items-center justify-center"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" class="w-5 h-5"><path d="M12 21s-7-4.5-9.5-9C1 8 3 5 6 5c2 0 3.5 1 4 2 .5-1 2-2 4-2 3 0 5 3 3.5 7C19 16.5 12 21 12 21Z"/></svg></div>
-          <p class="font-serif font-bold text-primary text-sm uppercase tracking-wide">4. Borde</p>
-          <p class="text-[13px] text-ink/65 leading-snug">Use nas suas peças, encomendas e projetos.</p>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="hidden sm:block w-5 h-5 text-primary/25 shrink-0 mt-3"><path d="m9 18 6-6-6-6"/></svg>
+        <div class="flex flex-col items-center gap-2.5 sm:w-1/4">
+          <span class="w-11 h-11 rounded-full bg-primary text-white font-serif font-bold text-lg flex items-center justify-center shrink-0">4</span>
+          <p class="font-serif font-bold text-primary text-sm uppercase tracking-wide">Borde</p>
+          <p class="text-[13px] text-ink/65 leading-snug max-w-[11rem]">Use nas suas peças, encomendas e projetos.</p>
         </div>
       </div>
     </div>
@@ -331,12 +343,40 @@ src="https://www.facebook.com/tr?id=1096195466206984&ev=PageView&noscript=1"
     <div class="max-w-4xl mx-auto">
       <h2 class="font-serif font-bold text-primary text-[1.85rem] sm:text-4xl leading-[1.15] text-center mb-10">Veja o que outras bordadeiras estão dizendo</h2>
 
-      <div class="grid grid-cols-1 sm:grid-cols-2 gap-5 sm:gap-6 max-w-2xl mx-auto mb-10">
-        <img src="/images/depoimentos/depoimento-lili-handmade.png" alt="Depoimento de cliente sobre a Biblioteca da Bordadeira" loading="lazy" width="640" height="1140" class="w-full h-auto rounded-2xl border border-primary/10 shadow-sm" />
-        <img src="/images/depoimentos/depoimento-ana-clara.png" alt="Depoimento de cliente sobre a Biblioteca da Bordadeira" loading="lazy" width="640" height="1140" class="w-full h-auto rounded-2xl border border-primary/10 shadow-sm" />
-        <img src="/images/depoimentos/depoimento-bia-artes.png" alt="Depoimento de cliente sobre a Biblioteca da Bordadeira" loading="lazy" width="640" height="1140" class="w-full h-auto rounded-2xl border border-primary/10 shadow-sm" />
-        <img src="/images/depoimentos/depoimento-monica-borda.png" alt="Depoimento de cliente sobre a Biblioteca da Bordadeira" loading="lazy" width="640" height="1140" class="w-full h-auto rounded-2xl border border-primary/10 shadow-sm" />
+      <!-- Trechos reais, copiados literalmente das conversas (prints originais mantidos como
+           fonte). Formato de citação curta, mais legível que o print inteiro. -->
+      <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-5 max-w-2xl mx-auto mb-10">
+        <div class="bg-white border border-primary/10 rounded-2xl shadow-sm px-5 py-5">
+          <p class="text-accent text-2xl leading-none font-serif mb-1.5">&ldquo;</p>
+          <p class="text-[15px] text-ink/80 leading-relaxed mb-3">Amei a parte dos gráficos orientais 😍 Foi uma das coisas que mais me chamou atenção, tem cada modelo lindo.</p>
+          <p class="text-xs font-bold uppercase tracking-wide text-primary">Lili Handmade</p>
+        </div>
+        <div class="bg-white border border-primary/10 rounded-2xl shadow-sm px-5 py-5">
+          <p class="text-accent text-2xl leading-none font-serif mb-1.5">&ldquo;</p>
+          <p class="text-[15px] text-ink/80 leading-relaxed mb-3">Sinceramente compensou muito, por esse valor eu não esperava encontrar tanta coisa, valeu super a pena 💚</p>
+          <p class="text-xs font-bold uppercase tracking-wide text-primary">Mônica Borda</p>
+        </div>
+        <div class="bg-white border border-primary/10 rounded-2xl shadow-sm px-5 py-5">
+          <p class="text-accent text-2xl leading-none font-serif mb-1.5">&ldquo;</p>
+          <p class="text-[15px] text-ink/80 leading-relaxed mb-3">Amei demais porque consegui abrir pelo celular sem dificuldade, já separei vários gráficos que quero fazer primeiro 🥹</p>
+          <p class="text-xs font-bold uppercase tracking-wide text-primary">Bia Artes</p>
+        </div>
+        <div class="bg-white border border-primary/10 rounded-2xl shadow-sm px-5 py-5">
+          <p class="text-accent text-2xl leading-none font-serif mb-1.5">&ldquo;</p>
+          <p class="text-[15px] text-ink/80 leading-relaxed mb-3">Menina eu to passada com a quantidade kkkk, tem muita opção mesmo, achei vários modelos que eu tava procurando fazia tempo.</p>
+          <p class="text-xs font-bold uppercase tracking-wide text-primary">Ana Clara</p>
+        </div>
       </div>
+
+      <details class="max-w-2xl mx-auto mb-10 text-center">
+        <summary class="text-xs text-ink/45 cursor-pointer hover:text-ink/65 list-none inline-flex items-center gap-1">Ver prints originais das conversas</summary>
+        <div class="grid grid-cols-2 sm:grid-cols-4 gap-3 mt-5">
+          <img src="/images/depoimentos/depoimento-lili-handmade.png" alt="Print original da conversa com Lili Handmade" loading="lazy" width="640" height="1140" class="w-full h-auto rounded-xl border border-primary/10" />
+          <img src="/images/depoimentos/depoimento-monica-borda.png" alt="Print original da conversa com Mônica Borda" loading="lazy" width="640" height="1140" class="w-full h-auto rounded-xl border border-primary/10" />
+          <img src="/images/depoimentos/depoimento-bia-artes.png" alt="Print original da conversa com Bia Artes" loading="lazy" width="640" height="1140" class="w-full h-auto rounded-xl border border-primary/10" />
+          <img src="/images/depoimentos/depoimento-ana-clara.png" alt="Print original da conversa com Ana Clara" loading="lazy" width="640" height="1140" class="w-full h-auto rounded-xl border border-primary/10" />
+        </div>
+      </details>
 
       <div class="text-center">
         <a href="#" data-checkout="completo" data-cta-track="social" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 bg-primary hover:bg-primary-hover text-white font-sans font-bold text-sm uppercase tracking-wide px-7 py-3.5 rounded-full transition-colors">
@@ -352,40 +392,40 @@ src="https://www.facebook.com/tr?id=1096195466206984&ev=PageView&noscript=1"
       <p class="text-center font-serif italic text-primary/70 text-base sm:text-lg mb-2">E você não recebe só os +500 riscos...</p>
       <h2 class="font-serif font-bold text-primary text-[1.85rem] sm:text-4xl leading-[1.15] text-center mb-12">Você também leva bônus para facilitar ainda mais sua produção</h2>
 
-      <div class="flex flex-col divide-y divide-primary/10">
-        <div class="flex items-center gap-4 sm:gap-5 py-5">
-          <img src="/images/bonus/Bonus-Videoaulas.webp" alt="Videoaulas Bônus" width="120" height="90" loading="lazy" class="w-20 h-16 sm:w-24 sm:h-[4.5rem] rounded-lg object-cover shrink-0" />
-          <div>
-            <p class="font-serif font-bold text-primary text-base leading-tight mb-0.5">Videoaulas Bônus</p>
-            <p class="text-[13px] text-ink/65 leading-relaxed">Aprenda a preparar, imprimir e transferir seus riscos para o tecido.</p>
+      <div class="grid grid-cols-2 sm:grid-cols-5 gap-3 sm:gap-4">
+        <div class="bg-white/70 border border-primary/10 rounded-2xl overflow-hidden">
+          <img src="/images/bonus/Bonus-Videoaulas.webp" alt="Videoaulas Bônus" width="300" height="225" loading="lazy" class="w-full aspect-[4/3] object-cover" />
+          <div class="px-3 py-3">
+            <p class="font-serif font-bold text-primary text-[13px] leading-tight mb-1">Videoaulas Bônus</p>
+            <p class="text-[11px] text-ink/60 leading-snug">Passo a passo para imprimir e transferir.</p>
           </div>
         </div>
-        <div class="flex items-center gap-4 sm:gap-5 py-5">
-          <img src="/images/bonus/Bonus-Catalogo-Digital.webp" alt="Catálogo Digital para Clientes" width="120" height="90" loading="lazy" class="w-20 h-16 sm:w-24 sm:h-[4.5rem] rounded-lg object-cover shrink-0" />
-          <div>
-            <p class="font-serif font-bold text-primary text-base leading-tight mb-0.5">Catálogo Digital para Clientes</p>
-            <p class="text-[13px] text-ink/65 leading-relaxed">Apresente opções pelo celular e ajude suas clientes a escolherem.</p>
+        <div class="bg-white/70 border border-primary/10 rounded-2xl overflow-hidden">
+          <img src="/images/bonus/Bonus-Catalogo-Digital.webp" alt="Catálogo Digital para Clientes" width="300" height="225" loading="lazy" class="w-full aspect-[4/3] object-cover" />
+          <div class="px-3 py-3">
+            <p class="font-serif font-bold text-primary text-[13px] leading-tight mb-1">Catálogo Digital</p>
+            <p class="text-[11px] text-ink/60 leading-snug">Apresente opções pelo celular às clientes.</p>
           </div>
         </div>
-        <div class="flex items-center gap-4 sm:gap-5 py-5">
-          <img src="/images/bonus/Bonus-Guia-Transferencia.webp" alt="Guia de Transferência para Tecido" width="120" height="90" loading="lazy" class="w-20 h-16 sm:w-24 sm:h-[4.5rem] rounded-lg object-cover shrink-0" />
-          <div>
-            <p class="font-serif font-bold text-primary text-base leading-tight mb-0.5">Guia de Transferência para Tecido</p>
-            <p class="text-[13px] text-ink/65 leading-relaxed">Diferentes formas de passar o risco para o tecido com segurança.</p>
+        <div class="bg-white/70 border border-primary/10 rounded-2xl overflow-hidden">
+          <img src="/images/bonus/Bonus-Guia-Transferencia.webp" alt="Guia de Transferência para Tecido" width="300" height="225" loading="lazy" class="w-full aspect-[4/3] object-cover" />
+          <div class="px-3 py-3">
+            <p class="font-serif font-bold text-primary text-[13px] leading-tight mb-1">Guia de Transferência</p>
+            <p class="text-[11px] text-ink/60 leading-snug">Formas seguras de passar pro tecido.</p>
           </div>
         </div>
-        <div class="flex items-center gap-4 sm:gap-5 py-5">
-          <img src="/images/bonus/Bonus-Alfabetos-e-Nomes.webp" alt="Alfabetos, Nomes e Monogramas" width="120" height="90" loading="lazy" class="w-20 h-16 sm:w-24 sm:h-[4.5rem] rounded-lg object-cover shrink-0" />
-          <div>
-            <p class="font-serif font-bold text-primary text-base leading-tight mb-0.5">Alfabetos, Nomes e Monogramas</p>
-            <p class="text-[13px] text-ink/65 leading-relaxed">Personalize toalhas, enxovais e presentes com letras prontas.</p>
+        <div class="bg-white/70 border border-primary/10 rounded-2xl overflow-hidden">
+          <img src="/images/bonus/Bonus-Alfabetos-e-Nomes.webp" alt="Alfabetos, Nomes e Monogramas" width="300" height="225" loading="lazy" class="w-full aspect-[4/3] object-cover" />
+          <div class="px-3 py-3">
+            <p class="font-serif font-bold text-primary text-[13px] leading-tight mb-1">Alfabetos e Nomes</p>
+            <p class="text-[11px] text-ink/60 leading-snug">Letras prontas para personalizar.</p>
           </div>
         </div>
-        <div class="flex items-center gap-4 sm:gap-5 py-5">
-          <img src="/images/bonus/Bonus-Frases-para-Bordar.webp" alt="Frases para Bordar" width="120" height="90" loading="lazy" class="w-20 h-16 sm:w-24 sm:h-[4.5rem] rounded-lg object-cover shrink-0" />
-          <div>
-            <p class="font-serif font-bold text-primary text-base leading-tight mb-0.5">Frases para Bordar</p>
-            <p class="text-[13px] text-ink/65 leading-relaxed">Frases afetivas prontas para personalizar peças e encomendas.</p>
+        <div class="bg-white/70 border border-primary/10 rounded-2xl overflow-hidden col-span-2 sm:col-span-1">
+          <img src="/images/bonus/Bonus-Frases-para-Bordar.webp" alt="Frases para Bordar" width="300" height="225" loading="lazy" class="w-full aspect-[4/3] object-cover" />
+          <div class="px-3 py-3">
+            <p class="font-serif font-bold text-primary text-[13px] leading-tight mb-1">Frases para Bordar</p>
+            <p class="text-[11px] text-ink/60 leading-snug">Frases afetivas para personalizar.</p>
           </div>
         </div>
       </div>
@@ -402,7 +442,10 @@ src="https://www.facebook.com/tr?id=1096195466206984&ev=PageView&noscript=1"
       <h2 class="font-serif font-bold text-primary text-[1.85rem] sm:text-4xl leading-[1.15] text-center mb-12">Escolha Como Você Quer Começar</h2>
 
       <!-- Biblioteca Completa: destaque grande -->
-      <div class="relative max-w-lg mx-auto rounded-[1.75rem] border-2 border-primary bg-white shadow-[0_30px_60px_-30px_rgba(122,59,46,0.4)] px-7 py-10 sm:px-10 sm:py-12 text-center">
+      <div class="relative max-w-lg mx-auto">
+        <p class="hidden lg:block absolute -left-8 top-10 -translate-x-full font-serif italic text-accent text-base -rotate-6 text-right leading-snug w-32">Mais completa e mais escolhida!</p>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 60" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" class="hidden lg:block absolute -left-8 top-20 -translate-x-full text-accent/70 w-10 h-10"><path d="M5 8c10 2 22 10 24 30" /><path d="M22 34l7 6 2-9" /></svg>
+        <div class="relative rounded-[1.75rem] border-2 border-primary bg-white shadow-[0_30px_60px_-30px_rgba(122,59,46,0.4)] px-7 py-10 sm:px-10 sm:py-12 text-center">
         <span class="absolute -top-3.5 left-1/2 -translate-x-1/2 bg-accent text-white text-[10px] font-bold uppercase tracking-wide px-4 py-1.5 rounded-full whitespace-nowrap">Mais Escolhida</span>
 
         <h3 class="font-serif font-bold text-primary text-2xl mb-1 mt-2">Biblioteca Completa</h3>
@@ -446,6 +489,7 @@ src="https://www.facebook.com/tr?id=1096195466206984&ev=PageView&noscript=1"
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" class="w-5 h-5"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
         </a>
         <p class="text-xs text-ink/55 mt-4">Compra segura &bull; Acesso imediato &bull; 7 dias de garantia</p>
+        </div>
       </div>
 
       <!-- Biblioteca Essencial: discreta, abaixo -->
@@ -465,12 +509,20 @@ src="https://www.facebook.com/tr?id=1096195466206984&ev=PageView&noscript=1"
 
   <!-- ===================== 12. GARANTIA ===================== -->
   <section class="w-full px-5 lg:px-10 py-14 lg:py-16">
-    <div class="max-w-2xl mx-auto text-center">
-      <h2 class="font-serif font-bold text-primary text-2xl sm:text-3xl leading-tight mb-4">Você pode conhecer a biblioteca sem risco</h2>
-      <p class="text-base text-ink/70 leading-relaxed mb-5">
-        Você tem 7 dias de garantia para acessar o material e conhecer o conteúdo. Se dentro desse período você entender que o produto não é para você, poderá solicitar o reembolso conforme as condições da garantia.
-      </p>
-      <p class="font-serif font-black text-primary text-xl">7 dias de garantia</p>
+    <div class="max-w-2xl mx-auto grid grid-cols-1 sm:grid-cols-[auto_1fr] gap-6 sm:gap-8 items-center text-center sm:text-left">
+      <div class="mx-auto sm:mx-0 w-24 h-24 rounded-full border-2 border-primary flex items-center justify-center shrink-0 relative">
+        <div class="absolute inset-1.5 rounded-full border border-dashed border-primary/40"></div>
+        <div class="text-center leading-none">
+          <span class="block font-serif font-black text-primary text-2xl">7 DIAS</span>
+          <span class="block text-[9px] font-sans font-bold uppercase tracking-wide text-primary/70 mt-1">de garantia</span>
+        </div>
+      </div>
+      <div>
+        <h2 class="font-serif font-bold text-primary text-2xl sm:text-3xl leading-tight mb-4">Você pode conhecer a biblioteca sem risco</h2>
+        <p class="text-base text-ink/70 leading-relaxed">
+          Você tem 7 dias de garantia para acessar o material e conhecer o conteúdo. Se dentro desse período você entender que o produto não é para você, poderá solicitar o reembolso conforme as condições da garantia.
+        </p>
+      </div>
     </div>
   </section>
 
